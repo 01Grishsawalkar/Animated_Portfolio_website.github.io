@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="loader">
+        <div id="wrapperload">
+
+            <div class="elem" id="color_name">
+                <h1 style="color: black;">G</h1><span><h1 style="color: rgb(203, 119, 119);">i</h1></span> <span><h1 style="color: rgb(169, 173, 75);">r</h1></span><span><h1 style="color: rgb(6, 10, 80);">i</h1></span><span><h1 style="color: rgb(80, 6, 58);">s</h1></span><span><h1 style="color: rgb(6, 80, 43);">h</h1></span>  &nbsp; &nbsp; <h1 style="color: rgb(7, 7, 7);">S</h1></span>  <h1 style="color: rgb(72, 207, 139);">a</h1></span>  <h1 style="color: rgb(22, 6, 80);">w</h1></span>  <h1 style="color: rgb(6, 80, 43);">a</h1></span>  <h1 style="color: rgb(6, 80, 43);">l</h1></span>  <h1 style="color: rgb(6, 80, 43);">k</h1></span>  <h1 style="color: rgb(196, 191, 36);">a</h1></span>  <h1 style="color: rgb(80, 6, 38);">r</h1></span>  
+            </div>
+            <div class="elem">
+                <h1>UI/UX Designer</h1>
+            </div>
+            <div class="elem">
+                <h1>loves to help brands.</h1>
+            </div>
+            <div class="elem" id="color_name2">
+                <h1 style="color: black;">G</h1><span><h1 style="color: rgb(203, 119, 119);">i</h1></span> <span><h1 style="color: rgb(169, 173, 75);">r</h1></span><span><h1 style="color: rgb(6, 10, 80);">i</h1></span><span><h1 style="color: rgb(80, 6, 58);">s</h1></span><span><h1 style="color: rgb(6, 80, 43);">h</h1></span>  &nbsp; &nbsp; <h1 style="color: rgb(7, 7, 7);">S</h1></span>  <h1 style="color: rgb(72, 207, 139);">a</h1></span>  <h1 style="color: rgb(22, 6, 80);">w</h1></span>  <h1 style="color: rgb(6, 80, 43);">a</h1></span>  <h1 style="color: rgb(6, 80, 43);">l</h1></span>  <h1 style="color: rgb(6, 80, 43);">k</h1></span>  <h1 style="color: rgb(196, 191, 36);">a</h1></span>  <h1 style="color: rgb(80, 6, 38);">r</h1></span>  
+            </div>
+        </div>
+    </div>
+
+    <div id="bg">
+        <nav>
+            <img class="navitem" src="./imgs/logo.png" alt="">
+            <div id="links">
+                <a class="navitem" href="#">Home</a>
+                <a class="navitem" href="#">Contact</a>
+                <i class="navitem ri-search-line"></i>
+                <i id="menu" class="navitem ri-menu-2-line"></i>
+            </div>
+        </nav>
+        <div id="sections">
+            <img class="leftitem" id="splash" src="./Assets/rightSplash.png" alt="">
+            <div id="left">
+                <div id="smline"></div>
+                <h4 class="leftitem">Hello, I am 👋 Girish Sawakar</h4>
+                <img class="leftitem" src="./imgs/name.png" alt="">
+                <h5 class="leftitem">a FrontEnd Developer from <span id="lblue">India.</span></h5>
+                <div class="leftitem" id="playbtn">
+                    <img src="./Assets/playButton.png" alt="">
+                    <h5>see my <span class="bold">work profile</span></h5>
+                </div>
+                <div class="leftitem" id="contact">
+                    <h3>Contact me</h3>
+                    <h6>Email : <span>girishsawalkar2018@gmail.com</span></h6>
+                    <h6>Contact Number: <span>+91 7768989407</span></h6>
+                </div>
+            </div>
+            <div id="right">
+                <img src="./Assets/img_2.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <script>
+        var menu = document.querySelector('#menu');
+        var bg = document.querySelector('#bg');
+
+        menu.addEventListener('click', function(){
+            bg.style.transform = 'scale(.8)';
+            bg.style.borderRadius = '10px';
+            bg.style.boxShadow = '0 150px 45px -100px rgba(0,0,0,0.2)';
+        })
+    </script>
+</body>
+</html>
