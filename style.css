@@ -136,6 +136,9 @@ nav #links a:nth-child(2){
     background-color: #000;
     margin-bottom: 12px
 }
+#smline{
+    width: 20%;
+}
 
 #left h4{
     font-size: 48px;
